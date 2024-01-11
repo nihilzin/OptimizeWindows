@@ -1,0 +1,19 @@
+Dism /Online /Get-TargetEditions
+
+sc config LicenseManager start= auto & net start LicenseManager
+
+sc config wuauserv start= auto & net start wuauserv
+
+changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T
+
+If the above key isn't working, please try any other key from the following:
+
+W269N-WFGWX-YVC9B-4J6C9-T83GX
+6P99N-YF42M-TPGBG-9VMJP-YKHCF
+8N67H-M3CY9-QT7C4-2TR7M-TXYCV
+YTYG9-FR8RD-QBQC8-HC7J2-2JJFF
+MH37W-N47XK-V7XM9-C7227-GCQG9
+
+comandos para verificar usuário = netplwiz
+net localgroup administradores = todos os admins
+net user "nome do usuário"
