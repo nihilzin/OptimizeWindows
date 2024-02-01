@@ -5,3 +5,5 @@ Script para Windows e Office: irm https://massgrave.dev/get | iex
 Script para Otimizações rápidas: iex ((New-Object 
 
 System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Sycnex/Windows10Debloater/master/Windows10DebloaterGUI.ps1'))
+
+Script para otimizações selecionadas: iwr app.sophia.team -useb | iex
